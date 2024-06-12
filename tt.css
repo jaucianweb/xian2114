@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #161616;
+    color: #ffffff;
+}
+
+h1 {
+    color: inherit;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: inherit;
+    margin-top: 50px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #005f6a;
+}
+
+#darkModeToggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #292929;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#darkModeToggle:hover {
+    background-color: #222;
+}
+footer {
+  position: absolute;
+  bottom: 30PX;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  color: #888;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #333; /* Text color */
+}
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .login-container {
+      max-width: 100%;
+      width: 90%;
+    }
+  }
+  
